@@ -58,7 +58,7 @@ ob_start();
                                  if(mysql_affected_rows()>0)
                                 
 {
-echo" sucessfully Deposited";
+echo" SUCCESSFULLY DEPOSITED";
 }
 else
 {
@@ -70,16 +70,16 @@ echo"Account number incorect/Create an Account";
                             
 ?>
         <tr>
-            <td>Account No</td>
+            <td>ACCOUNT NUMBER</td>
             <td><input type="number"name="t1"class="form-control"></td>
         </tr>
         <tr>
-            <td>Amount</td>
+            <td>AMOUNT</td>
             <td><input type="number"name="t2"class="form-control"placeholder="Rs/-"></td>
         </tr>
         <tr>
             <td></td>
-            <td><input type="submit"value="Deposit"name="b1"class="btn btn-success"></td>
+            <td><input type="submit"value="DEPOSIT"name="b1"class="btn btn-success"></td>
         </tr>
         
         
