@@ -145,35 +145,35 @@ else
                     
                     <table  class="table  table-responsive  table-striped table-bordered ">
                         <tr>
-                            <td>Name</td>
+                            <td>NAME </td>
                             <td><input type="text"name="t1"class="form-control"required="required"></td>
                         </tr>
                         <tr>
-                            <td>Address</td>
+                            <td>ADDRESS </td>
                             <td><textarea name="t2"class="form-control"required="required"></textarea></td>
                         </tr>
                         <tr>
-                            <td>Contact</td>
+                            <td>CONTACT</td>
                             <td><input type="text"name="t3"id="t3"class="form-control"required=""onblur="chkc(this.value)" /><span id="o3"></span></td>
                         </tr>
                         
                         <tr>
-                                    <td>Gender</td>
+                                    <td>GENDER</td>
                                     <td><input type="radio"name="r1"value="Male">Male
                                     
                                  <input type="radio"name="r1"value="Female">Female</td>
                                 </tr>
                                 <tr>
-                            <td>Aadhar Number</td>
+                            <td>AADHAAR NUMBER</td>
                             <td><input type="text"name="t4"class="form-control"required="required"onblur="chkd(this.value)" /><span id="p3"></span></td>
                         </tr>
                          
                          <tr>
-                            <td>Id proof</td>
+                            <td>ID PROOF</td>
                             <td><input type="file"name="f1"required="required"></td>
                         </tr>
                          <tr>
-                            <td>Photo</td>
+                            <td>PHOTO</td>
                             <td><input type="file"name="p1"required="required"></td>
                         </tr>
                          <tr>
@@ -196,11 +196,11 @@ else
                                                         <font color="red"> <?php
                                                         if(isset($_GET['add']))
                                                         {
-                                                            echo "Addhar No Already Exits <br/>";
+                                                            echo "Aadhaar Number Already Exits <br/>";
                                                         }
                                                         
                                                         ?></font>
-                                 <input type="submit"value="Create Account"name="b1"class="btn btn-success"></td>
+                                 <input type="submit"value="CREATE ACCOUNT"name="b1"class="btn btn-success"></td>
                         </tr>
                     </table>
                     
