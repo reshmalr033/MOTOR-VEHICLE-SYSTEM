@@ -11,34 +11,34 @@
 			 <div class="col-md-3 ftr-grid">
 				 <h4>MAKING PAYMENTS</h4>
 				 <ul>
-					 <li><a href="#">> FUND TRANSFER</a></li>
-					 <li><a href="#">> PAY BILLS - ATM</a></li>
-					 <li><a href="#">> PAY BILLS - PHONE BANKING</a></li>
-					 <li><a href="#">> ONLINE TAX PAYMENT</a></li>
-					 <li><a href="#">> PAY BILLS - DEBIT CARD</a></li>
-					 <li><a href="#">> PAY CREDIT CARD BILLS</a></li>					 
+					 <li><a href="#">> Fund Transfer</a></li>
+					 <li><a href="#">> Pay Bills - ATM</a></li>
+					 <li><a href="#">> Pay Bills - Phone Banking</a></li>
+					 <li><a href="#">> Online Tax Payment</a></li>
+					 <li><a href="#">> Pay Bills - Debit Card</a></li>
+					 <li><a href="#">> Pay Credit Card Bills</a></li>					 
 				 </ul>
 			 </div>
 			 <div class="col-md-3 ftr-grid">
 				 <h4>LOANS</h4>
 				 <ul>
-					 <li><a href="account.html">> GOLD LOANS</a></li>
-					 <li><a href="#">> HOUSING LOANS</a></li>
-					 <li><a href="#">> PROPERTY LOANS</a></li>
-					 <li><a href="#">> CAR LOANS</a></li>	
-                                         <li><a href="#">> PERSONAL LOANS</a></li>
-					 <li><a href="#">> EDUCATION AND CAREER LOANS</a></li>
+					 <li><a href="#">> Gold Loans</a></li>
+					 <li><a href="#">> Housing Loans</a></li>
+					 <li><a href="#">> Property Loans</a></li>
+					 <li><a href="#">> Vehicle Loans</a></li>	
+                                         <li><a href="#">> Personal Loans</a></li>
+					 <li><a href="#">> Education and Career Loans</a></li>
 				 </ul>
 			 </div>
 			 <div class="col-md-3 ftr-grid">
 				 <h4>APPLY NOW</h4>
 				 <ul>
-					 <li><a href="#">> CREDIT CARD</a></li>
-					 <li><a href="#">> PERSONAL LOAN</a></li>
-					 <li><a href="#">> HOME LOAN</a></li>
-                                         <li><a href="#">> LOAN AGAINST MUTUAL FUNDS</a></li>
-					 <li><a href="#">> LOAN AGAINST PROPERTY</a></li>
-					 <li><a href="#">> SAVINGS ACCOUNT</a></li>
+					 <li><a href="#">> Credit Card</a></li>
+					 <li><a href="#">> Personal Loan</a></li>
+					 <li><a href="#">> Loan Against Education</a></li>
+                                         <li><a href="#">> Loan Against Mutual Fund</a></li>
+					 <li><a href="#">> Loan Against Property</a></li>
+					 <li><a href="#">> Savings Account</a></li>
 					 				 
 				 </ul>
 			 </div>
@@ -62,7 +62,8 @@
 			 </ul>
 		 </div>		 
 		 <div class="copywrite">
-			 <p></p>
+                     <p>© Site best viewed in IE9+, Firefox 3.5+, Chrome 3+, Safari 5.0+ at 1024 x 768 pixels resolution.<br>
+                            Last Updated On : 09 May 2019</p>
 		 </div>			 
 		 </div>
 	 </div>
