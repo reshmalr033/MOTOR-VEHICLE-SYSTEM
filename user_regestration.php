@@ -133,11 +133,11 @@ header("location:user_regestration.php?fail=1");
                     ?>
                     <table  class="table  table-responsive  table-striped table-bordered ">
                         <tr>
-                            <td>Name</td>
+                            <td>NAME</td>
                             <td><input type="text"name="t1"class="form-control"required="required"></td>
                         </tr>
                         <tr>
-                                    <td>Gender</td>
+                                    <td>GENDER</td>
                                     <td><input type="radio"name="r1"value="Male">Male
                                     
                                  <input type="radio"name="r1"value="Female">Female</td>
@@ -145,36 +145,36 @@ header("location:user_regestration.php?fail=1");
                          
                          <tr>
                         <tr>
-                            <td>Address</td>
+                            <td>ADDRESS</td>
                             <td><textarea name="t2"class="form-control"cols="5"rows="5"required="required"></textarea></td>
                         </tr>
                         
                         <tr>
-                            <td>Contact</td>
+                            <td>CONTACT</td>
                             <td><input type="text"name="t3"class="form-control"required="required"onblur="chkc(this.value)" /><span id="o3"></span></td>
                         </tr>
                         <tr>
-                            <td>Account No</td>
+                            <td>ACCOUNT NUMBER</td>
                             <td><input type="text"name="a1"class="form-control"required="required"></td>
                         </tr>
                         <tr>
-                            <td>Aadhar No</td>
+                            <td>AADHAAR NUMBER</td>
                             <td><input type="text"name="a2"class="form-control"required="required"onblur="chkd(this.value)" /><span id="p3"></span></td>
                         </tr>
                         
                         
                         <tr>
-                            <td>Username</td>
+                            <td>USERNAME</td>
                             <td><input type="text"name="t4"class="form-control"required="required"></td>
                         </tr>
                         <tr>
-                            <td>Password</td>
+                            <td>PASSWORD</td>
                             <td><input type="password"name="t5"class="form-control"required="required"></td>
                         </tr>
                         
                          <tr>
                             
-                             <td colspan="2"align="center"><input type="submit"value="Register"name="b1"class="btn btn-success"></td>
+                             <td colspan="2"align="center"><input type="submit"value="REGISTER"name="b1"class="btn btn-success"></td>
                         </tr>
                     </table>
                     
