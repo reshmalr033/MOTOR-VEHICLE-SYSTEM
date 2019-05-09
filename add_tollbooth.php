@@ -37,7 +37,7 @@ if($z=$_SESSION['username'])
 
 		   <!--banner-->
 			 	<div class="banner two">
-                   <h2 class="second">Please Obey Traffic Rules</h2>
+                   <h2 class="second"></h2>
 			   </div>
 		</div>
 		</div>
@@ -183,7 +183,7 @@ echo mysql_error();
                    <div id="dvMap" style="width: 100%; height: 500px"></div>
                    <br/>
                    
-                   <h2 style="color: #00ACED;font: italic">TollBooth</h2>
+                   <h2 style="color: #00ACED;font: italic">TOLLBOOTH</h2>
     <br/>
                             <table class="table table-responsive table-bordered"style="background: #E5E5E5">
                       
