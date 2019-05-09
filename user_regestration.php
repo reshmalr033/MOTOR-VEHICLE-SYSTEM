@@ -8,7 +8,7 @@ include 'index_menu.php';
 
 		   <!--banner-->
 			 	<div class="banner two">
-                   <h2 class="second">Registration</h2>
+                   <h2 class="second"></h2>
 			   </div>
 		</div>
 		</div>
