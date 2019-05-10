@@ -22,7 +22,7 @@ if(isset($_SESSION['username']))
 
 		   <!--banner-->
 			 	<div class="banner two">
-                   <h2 class="second">Please Obey Traffic Rules</h2>
+                   <h2 class="second"></h2>
 			   </div>
 		</div>
 		</div>
