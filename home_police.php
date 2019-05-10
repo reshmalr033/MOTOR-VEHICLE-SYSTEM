@@ -37,7 +37,7 @@ if(isset($_SESSION['username']))
 
 		   <!--banner-->
 			 	<div class="banner two">
-                   <h2 class="second">Please Obey Traffic Rules</h2>
+                   <h2 class="second"></h2>
 			   </div>
 		</div>
 		</div>
@@ -74,7 +74,7 @@ else
 }
 ?>
         <tr>
-            <td>Vehicle_id</td>
+            <td>VEHICLE ID</td>
             <td><input type="text"class="form-control"name="t1"</td>
         </tr>
         <tr>
