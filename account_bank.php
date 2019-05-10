@@ -270,11 +270,11 @@ else
                                             ?>
                                         <table class="table table-bordered table-condensed table-hover table-responsive">
                                             <tr>
-                                                <td>No</td>
-                                                <td>Name</td>
-                                                <td>Account No</td>
-                                                <td>Amount</td>
-                                                <td>More</td>
+                                                <td>NO</td>
+                                                <td>NAME</td>
+                                                <td>ACCOUNT NO</td>
+                                                <td>AMOUNT</td>
+                                                <td>MORE</td>
                                             </tr>
                                         <?php
                                         $i=1;
