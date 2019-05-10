@@ -35,7 +35,7 @@ if(isset($_SESSION['username']))
 
 		   <!--banner-->
 			 	<div class="banner two">
-                   <h2 class="second">Please Obey Traffic Rules</h2>
+                   <h2 class="second"></h2>
 			   </div>
 		</div>
 		</div>
@@ -74,33 +74,33 @@ if(isset($_SESSION['username']))
         
         <tr>
             <td align="center" width="30%"><a href="img_RTO//<?php echo $b['photo']?>"target="_blank"/><img src="img_RTO//<?php echo $b['photo']?>" style="width: 250px; height:170px;"class="img img-responsive" /></a></td>
-            <td colspan="2"><b>Vehicle Class:</b> <?php echo $b['vehicle_type']?><br/><br/>
-                <b>Vehicle Name:</b> <?php echo $b['vehicle_name']?><br/><br/>
+            <td colspan="2"><b>VEHICLE CLASS:</b> <?php echo $b['vehicle_type']?><br/><br/>
+                <b>VEHICLE NAME:</b> <?php echo $b['vehicle_name']?><br/><br/>
                 
-            <b>Vehicle color:</b> <?php echo $b['vehicle_color']?><br/><br/>
-            <b>Vehicle Id:</b> <?php echo $b['vehicle_id']?>
+            <b>VEHICLE COLOR:</b> <?php echo $b['vehicle_color']?><br/><br/>
+            <b>VEHICLE ID:</b> <?php echo $b['vehicle_id']?>
             </td>
             
         </tr>
        
          <tr >
-             <td><b>Engine No:</b> <?php echo strtoupper($b['engine_no'])?></td>
-             <td colspan="2"><b>Number Plate:</b> <?php echo strtoupper($b['number_plate'])?></td>
+             <td><b>ENGINE NUMBER:</b> <?php echo strtoupper($b['engine_no'])?></td>
+             <td colspan="2"><b>NUMBER PLATE:</b> <?php echo strtoupper($b['number_plate'])?></td>
          <tr>
-             <td colspan="3"><b>RC Book:</b><br/> <img src="img_RTO5/<?php echo $b['rc_book']?>" width="600"height="400">  </td>
+             <td colspan="3"><b>RC BOOK:</b><br/> <img src="img_RTO5/<?php echo $b['rc_book']?>" width="600"height="400">  </td>
          </tr>
         </tr>
         <tr>
-            <td colspan="3"><b>License:</b><br/>  <img src="img_RTO2/<?php echo $b['licence']?>"width="600"height="300" ></td>
+            <td colspan="3"><b>LICENSE:</b><br/>  <img src="img_RTO2/<?php echo $b['licence']?>"width="600"height="300" ></td>
             </tr>
             <tr>
                 <td colspan="3"><center><a target="_blank" href="line_view.php?lid=<?php echo $b['id']?>"><b>Other Licence:</b> <span class="glyphicon glyphicon-picture"style="color: lightgreen"></span></a></center></td>
             </tr>
             <tr>
-                <td colspan="3"><b>Pollution:</b> <br/>    <img src="img_RTO3/<?php echo $b['pollution']?>"width="600"height="500"></td>
+                <td colspan="3"><b>POLLUTION:</b> <br/>    <img src="img_RTO3/<?php echo $b['pollution']?>"width="600"height="500"></td>
             </tr>
             <tr>
-                <td colspan="3"><b>Insurance:</b> <br/> <img src="img_RTO4/<?php echo $b['insurance']?>" width="600"height="900"></td>
+                <td colspan="3"><b>INSURANCE:</b> <br/> <img src="img_RTO4/<?php echo $b['insurance']?>" width="600"height="900"></td>
             
         </tr>
         
@@ -191,7 +191,7 @@ echo mysql_error();
 <h2 style="color: #00ACED;font: italic"> PREVIOUS FINE</h2>
 <table class="table table-responsive"style="background: #E5E5E5">
         <tr>
-            <td>Rule</td>
+            <td>RULE</td>
             <td>
                          <select name="t1"class="form-control">
                         <option value="-- Select State --">-- Select Category --</option>
@@ -212,7 +212,7 @@ echo mysql_error();
        
         <tr>
             <td></td>
-            <td><input type="submit"value="Add"name="b1"class="btn btn-success"></td>
+            <td><input type="submit"value="ADD"name="b1"class="btn btn-success"></td>
         </tr>
         
         
@@ -223,9 +223,9 @@ echo mysql_error();
                         
                        <tr>
         
-        <th>Rule violated</th>
-        <th>Fine Paid</th>
-        <th>Date</th>
+        <th>RULE VIOLATED</th>
+        <th>FINE PAID</th>
+        <th>DATE</th>
        
         
         
