@@ -107,11 +107,11 @@ if(mysql_num_rows($sel_des)>0)
     ?>
     <table class="table table-responsive table-bordered"style="background: #E5E5E5">
     <tr>
-        <td>No</td>
-        <td>Vehicle Class</td>
-        <td>Amount</td>
+        <td>NO</td>
+        <td>VEHICLE CLASS</td>
+        <td>1 WAY</td>
         <td>2 WAY</td>
-        <td>More</td>
+        <td>MORE</td>
     </tr>
     <?php
     $i=1;
