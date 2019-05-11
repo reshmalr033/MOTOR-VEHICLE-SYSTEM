@@ -103,10 +103,10 @@ if(mysql_num_rows($sel_des)>0)
     ?>
     <table class="table table-responsive table-bordered"style="background: #E5E5E5">
     <tr>
-        <td>No</td>
-        <td>Rule</td>
-        <td>Amount</td>
-        <td>More</td>
+        <td>NO</td>
+        <td>RULE</td>
+        <td>AMOUNT</td>
+        <td>MORE</td>
     </tr>
     <?php
     $i=1;
