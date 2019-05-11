@@ -71,11 +71,11 @@ echo"Account number incorect/Create an Account";
 ?>
         <tr>
             <td>ACCOUNT NUMBER</td>
-            <td><input type="number"name="t1"class="form-control"></td>
+            <td><input type="number"name="t1"class="form-control"required=""></td>
         </tr>
         <tr>
             <td>AMOUNT</td>
-            <td><input type="number"name="t2"class="form-control"placeholder="Rs/-"></td>
+            <td><input type="number"name="t2"class="form-control"placeholder="Rs/-"required=""></td>
         </tr>
         <tr>
             <td></td>
