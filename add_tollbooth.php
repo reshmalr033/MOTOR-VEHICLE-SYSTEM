@@ -189,10 +189,10 @@ echo mysql_error();
                       
                        <tr>
         
-        <td>Name</td>
-        <td>Username</td>
-        <td>Password</td>
-        <td>more</td>
+        <td>NAME</td>
+        <td>USERNAME</td>
+        <td>PASSWORD</td>
+        <td>MORE</td>
         
     </tr>
      <?php
