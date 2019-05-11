@@ -72,7 +72,7 @@ else
         <tr>
             <td style="font: bold">TOLL ID</td>
             <td>
-                         <select name="t1"class="form-control">
+                         <select name="t1"class="form-control" required="">
                         <option value="-- Select State --">-- Select Category --</option>
                          <?php
                               
@@ -90,7 +90,7 @@ else
         </tr>
         <tr>
             <td style="font: bold">DATE</td>
-            <td><input type="date"name="t2"class="form-control"></td>
+            <td><input type="date"name="t2"class="form-control"required=""></td>
         </tr>
         
         
