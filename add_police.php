@@ -19,8 +19,8 @@ ob_start();
       <div class="typography">
 	   <div class="container">
                	  
-<div class="col-lg-2"></div>
-<div class="col-lg-8">
+
+<div class="col-lg-6">
     <h2 style="color: #00ACED;font: italic">ADD POLICE HERE</h2>
     <br/>
 		     <?php
@@ -163,7 +163,57 @@ else
                    
                    
 	      </div>
-               
+               <div class="col-lg-6">
+                   
+                   
+                   <table class="table table-responsive table-bordered"style="background: #E5E5E5">
+                      
+                       <tr>
+        
+        <td>NAME</td>
+        <td>USERNAME</td>
+        <td>PASSWORD</td>
+        <td>MORE</td>
+        
+    </tr>
+     <?php
+                            if(isset($_GET['del']))
+{
+    $del=mysql_query("delete from staff_reg where id='".$_GET['del']."'");
+    //echo mysql_error();
+    if($del>0)
+    {
+       header("location:add_police.php");
+}
+}
+                            
+?>
+                            
+     <?php
+                            
+                            $a=mysql_query("select * from staff_reg where type='police'");
+                            
+                            $i=0;
+                            while($b=mysql_fetch_array($a))
+                            {
+                            
+                            
+                            ?>
+   
+    <tr>
+       
+        <td><?php echo $b['name']?></td>
+        <td><?php echo $b['username']?></td>
+        <td><?php echo $b['password']?></td>
+        <td><a href="add_police.php?del=<?php echo $b[0] ?>"><span class="glyphicon glyphicon-trash" style="color: red"></span></a></td>
+       <?php
+    $i++;
+    }
+    ?>
+    </tr>
+      
+</table>
+               </div>
 	   </div>
 	  </div>
 	 <!--//typography-->
