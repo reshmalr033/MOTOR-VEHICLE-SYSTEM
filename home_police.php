@@ -75,11 +75,11 @@ else
 ?>
         <tr>
             <td>VEHICLE ID</td>
-            <td><input type="text"class="form-control"name="t1"</td>
+            <td><input type="text"class="form-control"name="t1"required=""</td>
         </tr>
         <tr>
                            
-                             <td colspan="2"align="center"><input type="submit"value="Check Vehicle"name="b1"class="btn btn-success"></td>
+                             <td colspan="2"align="center"><input type="submit"value="CHECK VEHICLE"name="b1"class="btn btn-success"></td>
                         </tr>
         
     </table>
