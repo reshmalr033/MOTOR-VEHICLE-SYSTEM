@@ -50,8 +50,8 @@ else
         <tr>
             <td style="font: bold">TOLL ID</td>
             <td>
-                         <select name="t1"class="form-control">
-                        <option value="-- Select State --">-- Select Category --</option>
+                <select name="t1"class="form-control" required="">
+                        <option value="">-- Select Category --</option>
                          <?php
                               
                          session_start();
@@ -68,7 +68,7 @@ else
         </tr>
         <tr>
             <td style="font: bold">DATE</td>
-            <td><input type="date"name="t2"class="form-control"></td>
+            <td><input type="date"name="t2"class="form-control"required=""></td>
         </tr>
         
         <tr>
