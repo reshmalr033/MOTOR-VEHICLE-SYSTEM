@@ -29,7 +29,25 @@ if(isset($_SESSION['username']))
 							  });
 							});
 						</script>
-                                                <style type="text/css">
+                                                
+<script type="text/javascript" src="llqrcode.js"></script>
+<script type="text/javascript" src="js/plusone.js"></script>
+<script type="text/javascript" src="webqr.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24451557-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
 body{
     width:100%;
     text-align:center;
@@ -103,47 +121,8 @@ img{
 	width:70%;
 }
 
-ul{
-    margin-bottom:0;
-    margin-right:40px;
-}
-li{
-    display:inline;
-    padding-right: 0.5em;
-    padding-left: 0.5em;
-    font-weight: bold;
-    border-right: 1px solid #333333;
-}
-li a{
-    text-decoration: none;
-    color: black;
-}
-
-#footer a{
-	color: black;
-}
-.tsel{
-    padding:0;
-}
 
 </style>
-<script type="text/javascript" src="llqrcode.js"></script>
-<script type="text/javascript" src="js/plusone.js"></script>
-<script type="text/javascript" src="webqr.js"></script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-24451557-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 				<!-- start-search-->
 			<div class="clearfix"> </div>
         </div>
