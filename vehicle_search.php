@@ -7,7 +7,7 @@ include 'index_menu.php';
 
 		   <!--banner-->
 			 	<div class="banner two">
-                   <h2 class="second">Please Obey Traffic Rules</h2>
+                   <h2 class="second"></h2>
 			   </div>
 		</div>
 		</div>
@@ -50,12 +50,12 @@ else
         <tr>
             <td style="font: bold">VEHICLE ID</td>
             <td>
-                         <input type="text"name="t1"class="form-control">
+                         <input type="text"name="t1"class="form-control"required="">
                          </td>
         </tr>
         <tr>
             <td style="font: bold">DATE</td>
-            <td><input type="date"name="t2"class="form-control"></td>
+            <td><input type="date"name="t2"class="form-control"required=""></td>
         </tr>
         
         <tr>
