@@ -106,15 +106,15 @@ min-height: 496px;
 							</div>
 						</div>
 						<div class="car-text">
-							<h5>Tollbooth Survey</h5>
-							<p>Dolor amet At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias </p>
+							<h5>Importance of traffic signs in daily life</h5>
+							<p>The importance of traffic signs and road rules cannot be ignored in one’s life and it should be given paramount importance. Any driver who is driving a vehicle on the road should be aware of all the traffic signs and rules. The government has already made it mandatory for any person who wishes to obtain a driving license in India for the different traffic signs and rules. </p>
 						
 						</div>
 					</div>
 					<div class="welcome-bottom-grid-right">
 						<div class="car-text">
-						<h5>Tollbooth Survey</h5>
-							<p>Dolor amet At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias </p>
+						<h5>Toll booth</h5>
+							<p>A toll road, also known as a turnpike or tollway, is a public or private road (almost always a controlled-access highway in the present day) for which a fee (or toll) is assessed for passage. It is a form of road pricing typically implemented to help recoup the cost of road construction and maintenance. </p>
 							
 						</div>
 						<div class="welcome-bottom-grid-left-g">
@@ -150,14 +150,17 @@ min-height: 496px;
 		<!--//news-->
 	<div class="car-bottom">
 		  <div class="container">
-			  <div class="col-md-6 car-bottom-right">
-					<h3>The key maintenance</h3>
-					<h4>for your safety <span> on road</span></h4>
-					<p>Lorem ipsum dolor sit amet,Ex ea commodo consequat Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
-					<div class="morec1">
-					  <a href="#" class="hvr-bounce-to-top">More Info...</a>
-					</div>
-				</div>
+			  
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
 					<div class="clearfix"></div>
 		  </div>
 		</div>
